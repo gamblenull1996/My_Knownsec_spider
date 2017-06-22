@@ -7,6 +7,7 @@ class DataStore(object):
         self.conn = sqlite3.connect(dbname)
         self.conn.text_factory = str
         self.cur = self.conn.cursor()
+        # 数据库表结构为url+keyword+html
         self.cur.execute('''
             create table if not exists data(
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
