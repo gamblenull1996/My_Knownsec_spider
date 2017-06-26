@@ -18,7 +18,9 @@
 - my_threadpool.py 线程池实现
 
 测试页面: https://docs.python.org/2/library/urlparse.html
-测试命令:`python .\spider.py -u https://docs.python.org/2/library/urlparse.html -d 2 --dbfile python.db --thread 10 -f python.log -l 5`
+
+测试命令: `python .\spider.py -u https://docs.python.org/2/library/urlparse.html -d 2 --dbfile python.db --thread 10 -f python.log -l 5`
+
 从该页面提取的出的链接存放在result.txt中，经过比对，正确找出了页面中的相对链接和以http开头的链接。
 
 #### Todo
