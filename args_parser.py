@@ -33,9 +33,6 @@ def get_args():
         dest="keyword",
         default="",
         help=u"设置关键词，爬取满足该关键词的网页，默认获取所有页面")
-    # parser.add_argument('--encoding', dest="encoding", default=None, help=u"指定页面编码，如果不指定将自动测试页面编码")
-    # store_true参数用于保存True
-    # 当参数--testself被指定时, testself为True
     parser.add_argument(
         '--testself',
         action="store_true",
