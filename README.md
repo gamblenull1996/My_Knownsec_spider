@@ -21,5 +21,7 @@
 测试命令:`python .\spider.py -u https://docs.python.org/2/library/urlparse.html -d 2 --dbfile python.db --thread 10 -f python.log -l 5`
 从该页面提取的出的链接存放在result.txt中，经过比对，正确找出了页面中的相对链接和以http开头的链接。
 
+##### v1.2 支持程序每隔10秒在屏幕上打印进度信息
+![img](img/10.png)
 #### Todo
-程序每隔10秒在屏幕上打印进度信息
+doctest

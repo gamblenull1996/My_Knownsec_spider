@@ -39,6 +39,7 @@ def get_args():
         dest="testself",
         default="",
         help=u"程序自测标识")
+    # 获得所有命令行传入的参数
     args = parser.parse_args()
     args.keyword = args.keyword.decode("utf-8")
 

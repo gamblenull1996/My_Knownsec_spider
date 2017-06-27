@@ -17,6 +17,9 @@ class MyThreadPool(object):
         self.tasks.put((func, args, kwargs))
         log.debug('Add task')
 
+    def get_size(self):
+        return self.tasks.qsize()
+
     def wait_completion(self):
         self.tasks.join()
         log.info('All tasks are done')

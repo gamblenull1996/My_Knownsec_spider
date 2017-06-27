@@ -1,451 +1,458 @@
-2017-06-26 23:08:38,522 spider.threadpool MainThread [line:13] INFO Initialize thread 1
-2017-06-26 23:08:38,523 spider.threadpool MainThread [line:31] DEBUG Thread started...
-2017-06-26 23:08:38,523 spider.threadpool MainThread [line:13] INFO Initialize thread 2
-2017-06-26 23:08:38,523 spider.threadpool MainThread [line:31] DEBUG Thread started...
-2017-06-26 23:08:38,523 spider.threadpool MainThread [line:13] INFO Initialize thread 3
-2017-06-26 23:08:38,523 spider.threadpool MainThread [line:31] DEBUG Thread started...
-2017-06-26 23:08:38,523 spider.threadpool MainThread [line:13] INFO Initialize thread 4
-2017-06-26 23:08:38,523 spider.threadpool MainThread [line:31] DEBUG Thread started...
-2017-06-26 23:08:38,523 spider.threadpool MainThread [line:13] INFO Initialize thread 5
-2017-06-26 23:08:38,525 spider.threadpool MainThread [line:31] DEBUG Thread started...
-2017-06-26 23:08:38,525 spider.threadpool MainThread [line:13] INFO Initialize thread 6
-2017-06-26 23:08:38,525 spider.threadpool MainThread [line:31] DEBUG Thread started...
-2017-06-26 23:08:38,525 spider.threadpool MainThread [line:13] INFO Initialize thread 7
-2017-06-26 23:08:38,525 spider.threadpool MainThread [line:31] DEBUG Thread started...
-2017-06-26 23:08:38,525 spider.threadpool MainThread [line:13] INFO Initialize thread 8
-2017-06-26 23:08:38,526 spider.threadpool MainThread [line:31] DEBUG Thread started...
-2017-06-26 23:08:38,526 spider.threadpool MainThread [line:13] INFO Initialize thread 9
-2017-06-26 23:08:38,526 spider.threadpool MainThread [line:31] DEBUG Thread started...
-2017-06-26 23:08:38,526 spider.threadpool MainThread [line:13] INFO Initialize thread 10
-2017-06-26 23:08:38,526 spider.threadpool MainThread [line:31] DEBUG Thread started...
-2017-06-26 23:08:38,526 spider.threadpool MainThread [line:18] DEBUG Add task
-2017-06-26 23:08:38,526 spider.threadpool Thread-1 [line:37] WARNING Thread is working...
-2017-06-26 23:08:38,526 spider Thread-1 [line:39] DEBUG add https://docs.python.org/2/library/urlparse.html to url_set
-2017-06-26 23:08:38,526 spider Thread-1 [line:51] WARNING get https://docs.python.org/2/library/urlparse.html
-2017-06-26 23:08:39,392 spider.database Thread-1 [line:12] WARNING open database: python.db
-2017-06-26 23:08:39,420 spider.database Thread-1 [line:39] WARNING insert https://docs.python.org/2/library/urlparse.html to database python.db
-2017-06-26 23:08:39,434 spider.database Thread-1 [line:50] INFO close database
-2017-06-26 23:08:39,437 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,437 spider.threadpool Thread-2 [line:37] WARNING Thread is working...
-2017-06-26 23:08:39,437 spider Thread-2 [line:39] DEBUG add https://docs.python.org/2/genindex.html to url_set
-2017-06-26 23:08:39,437 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,437 spider.threadpool Thread-3 [line:37] WARNING Thread is working...
-2017-06-26 23:08:39,437 spider Thread-2 [line:51] WARNING get https://docs.python.org/2/genindex.html
-2017-06-26 23:08:39,437 spider Thread-3 [line:39] DEBUG add https://docs.python.org/2/py-modindex.html to url_set
-2017-06-26 23:08:39,437 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,437 spider.threadpool Thread-4 [line:37] WARNING Thread is working...
-2017-06-26 23:08:39,438 spider Thread-3 [line:51] WARNING get https://docs.python.org/2/py-modindex.html
-2017-06-26 23:08:39,438 spider Thread-4 [line:39] DEBUG add https://docs.python.org/2/library/socketserver.html to url_set
-2017-06-26 23:08:39,438 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,440 spider.threadpool Thread-5 [line:37] WARNING Thread is working...
-2017-06-26 23:08:39,440 spider Thread-4 [line:51] WARNING get https://docs.python.org/2/library/socketserver.html
-2017-06-26 23:08:39,440 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,440 spider Thread-5 [line:39] DEBUG add https://docs.python.org/2/library/uuid.html to url_set
-2017-06-26 23:08:39,440 spider.threadpool Thread-6 [line:37] WARNING Thread is working...
-2017-06-26 23:08:39,441 spider Thread-5 [line:51] WARNING get https://docs.python.org/2/library/uuid.html
-2017-06-26 23:08:39,441 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,443 spider Thread-6 [line:39] DEBUG add https://www.python.org to url_set
-2017-06-26 23:08:39,443 spider.threadpool Thread-7 [line:37] WARNING Thread is working...
-2017-06-26 23:08:39,444 spider Thread-6 [line:51] WARNING get https://www.python.org
-2017-06-26 23:08:39,444 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,444 spider.threadpool Thread-8 [line:37] WARNING Thread is working...
-2017-06-26 23:08:39,444 spider Thread-7 [line:39] DEBUG add https://docs.python.org/2/index.html to url_set
-2017-06-26 23:08:39,447 spider Thread-8 [line:39] DEBUG add https://docs.python.org/2/library/index.html to url_set
-2017-06-26 23:08:39,447 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,447 spider Thread-7 [line:51] WARNING get https://docs.python.org/2/index.html
-2017-06-26 23:08:39,447 spider.threadpool Thread-9 [line:37] WARNING Thread is working...
-2017-06-26 23:08:39,448 spider Thread-8 [line:51] WARNING get https://docs.python.org/2/library/index.html
-2017-06-26 23:08:39,450 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,450 spider.threadpool Thread-10 [line:37] WARNING Thread is working...
-2017-06-26 23:08:39,450 spider Thread-9 [line:39] DEBUG add https://docs.python.org/2/library/internet.html to url_set
-2017-06-26 23:08:39,451 spider Thread-10 [line:39] DEBUG add https://docs.python.org/2/library/urlparse.html#module-urlparse to url_set
-2017-06-26 23:08:39,453 spider Thread-9 [line:51] WARNING get https://docs.python.org/2/library/internet.html
-2017-06-26 23:08:39,451 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,456 spider Thread-10 [line:51] WARNING get https://docs.python.org/2/library/urlparse.html#module-urlparse
-2017-06-26 23:08:39,457 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,459 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,460 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,463 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,463 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,466 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,466 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,482 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,483 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,483 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,483 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,483 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,483 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,483 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,483 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,483 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,484 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,484 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,484 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,484 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,484 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,484 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,484 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,484 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,484 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,484 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,484 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,484 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,484 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,484 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,484 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,486 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,486 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,486 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,486 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,486 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,486 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,486 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,486 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,486 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,486 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,486 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,486 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,486 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,486 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,486 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,486 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,486 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,486 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,486 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,486 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,486 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,486 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,486 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,486 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,486 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,486 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,486 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,486 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,486 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,486 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,486 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,486 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,486 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,486 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,487 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,487 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,487 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,487 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,487 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,487 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,487 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,487 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,487 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,487 spider.threadpool Thread-1 [line:18] DEBUG Add task
-2017-06-26 23:08:39,487 spider.threadpool Thread-1 [line:37] WARNING Thread is working...
-2017-06-26 23:08:39,487 spider Thread-1 [line:35] DEBUG https://docs.python.org/2/library/urlparse.html#module-urlparse has been crawled
-2017-06-26 23:08:39,487 spider.threadpool Thread-1 [line:37] WARNING Thread is working...
-2017-06-26 23:08:39,487 spider Thread-1 [line:35] DEBUG https://docs.python.org/2/library/urlparse.html#module-urlparse has been crawled
-2017-06-26 23:08:39,487 spider.threadpool Thread-1 [line:37] WARNING Thread is working...
-2017-06-26 23:08:39,487 spider Thread-1 [line:39] DEBUG add https://docs.python.org/2/glossary.html#term-2to3 to url_set
-2017-06-26 23:08:39,487 spider Thread-1 [line:51] WARNING get https://docs.python.org/2/glossary.html#term-2to3
-2017-06-26 23:08:39,815 spider.database Thread-2 [line:12] WARNING open database: python.db
-2017-06-26 23:08:39,816 spider.database Thread-2 [line:39] WARNING insert https://docs.python.org/2/genindex.html to database python.db
-2017-06-26 23:08:39,832 spider.database Thread-2 [line:50] INFO close database
-2017-06-26 23:08:39,834 spider.threadpool Thread-2 [line:37] WARNING Thread is working...
-2017-06-26 23:08:39,834 spider Thread-2 [line:39] DEBUG add https://hg.python.org/cpython/file/2.7/Lib/urlparse.py to url_set
-2017-06-26 23:08:39,834 spider Thread-2 [line:51] WARNING get https://hg.python.org/cpython/file/2.7/Lib/urlparse.py
-2017-06-26 23:08:40,857 spider.database Thread-7 [line:12] WARNING open database: python.db
-2017-06-26 23:08:40,858 spider.database Thread-7 [line:39] WARNING insert https://docs.python.org/2/index.html to database python.db
-2017-06-26 23:08:40,875 spider.database Thread-7 [line:50] INFO close database
-2017-06-26 23:08:40,875 spider.threadpool Thread-7 [line:37] WARNING Thread is working...
-2017-06-26 23:08:40,877 spider Thread-7 [line:35] DEBUG https://docs.python.org/2/library/urlparse.html#module-urlparse has been crawled
-2017-06-26 23:08:40,877 spider.threadpool Thread-7 [line:37] WARNING Thread is working...
-2017-06-26 23:08:40,878 spider Thread-7 [line:39] DEBUG add https://docs.python.org/2/library/urlparse.html#urlparse.urlparse to url_set
-2017-06-26 23:08:40,878 spider Thread-7 [line:51] WARNING get https://docs.python.org/2/library/urlparse.html#urlparse.urlparse
-2017-06-26 23:08:41,345 spider.database Thread-6 [line:12] WARNING open database: python.db
-2017-06-26 23:08:41,348 spider.database Thread-6 [line:39] WARNING insert https://www.python.org to database python.db
-2017-06-26 23:08:41,365 spider.database Thread-6 [line:50] INFO close database
-2017-06-26 23:08:41,365 spider.threadpool Thread-6 [line:37] WARNING Thread is working...
-2017-06-26 23:08:41,365 spider Thread-6 [line:39] DEBUG add https://tools.ietf.org/html/rfc1808.html to url_set
-2017-06-26 23:08:41,367 spider Thread-6 [line:51] WARNING get https://tools.ietf.org/html/rfc1808.html
-2017-06-26 23:08:41,382 spider.database Thread-3 [line:12] WARNING open database: python.db
-2017-06-26 23:08:41,384 spider.database Thread-3 [line:39] WARNING insert https://docs.python.org/2/py-modindex.html to database python.db
-2017-06-26 23:08:41,401 spider.database Thread-3 [line:50] INFO close database
-2017-06-26 23:08:41,403 spider.threadpool Thread-3 [line:37] WARNING Thread is working...
-2017-06-26 23:08:41,404 spider Thread-3 [line:39] DEBUG add https://docs.python.org/2/library/constants.html#True to url_set
-2017-06-26 23:08:41,404 spider Thread-3 [line:51] WARNING get https://docs.python.org/2/library/constants.html#True
-2017-06-26 23:08:43,217 spider.database Thread-2 [line:12] WARNING open database: python.db
-2017-06-26 23:08:43,219 spider.database Thread-2 [line:39] WARNING insert https://hg.python.org/cpython/file/2.7/Lib/urlparse.py to database python.db
-2017-06-26 23:08:43,236 spider.database Thread-2 [line:50] INFO close database
-2017-06-26 23:08:43,237 spider.threadpool Thread-2 [line:37] WARNING Thread is working...
-2017-06-26 23:08:43,239 spider Thread-2 [line:39] DEBUG add https://docs.python.org/2/library/functions.html#tuple to url_set
-2017-06-26 23:08:43,240 spider Thread-2 [line:51] WARNING get https://docs.python.org/2/library/functions.html#tuple
-2017-06-26 23:08:43,315 spider.database Thread-6 [line:12] WARNING open database: python.db
-2017-06-26 23:08:43,318 spider.database Thread-6 [line:39] WARNING insert https://tools.ietf.org/html/rfc1808.html to database python.db
-2017-06-26 23:08:43,335 spider.database Thread-6 [line:50] INFO close database
-2017-06-26 23:08:43,338 spider.threadpool Thread-6 [line:37] WARNING Thread is working...
-2017-06-26 23:08:43,338 spider Thread-6 [line:39] DEBUG add https://docs.python.org/2/library/constants.html#None to url_set
-2017-06-26 23:08:43,338 spider Thread-6 [line:51] WARNING get https://docs.python.org/2/library/constants.html#None
-2017-06-26 23:08:45,197 spider.database Thread-3 [line:12] WARNING open database: python.db
-2017-06-26 23:08:45,198 spider.database Thread-3 [line:39] WARNING insert https://docs.python.org/2/library/constants.html#True to database python.db
-2017-06-26 23:08:45,204 spider.database Thread-9 [line:12] WARNING open database: python.db
-2017-06-26 23:08:45,216 spider.database Thread-3 [line:50] INFO close database
-2017-06-26 23:08:45,217 spider.threadpool Thread-3 [line:37] WARNING Thread is working...
-2017-06-26 23:08:45,217 spider Thread-3 [line:35] DEBUG https://docs.python.org/2/library/constants.html#None has been crawled
-2017-06-26 23:08:45,217 spider.database Thread-9 [line:39] WARNING insert https://docs.python.org/2/library/internet.html to database python.db
-2017-06-26 23:08:45,219 spider.threadpool Thread-3 [line:37] WARNING Thread is working...
-2017-06-26 23:08:45,219 spider Thread-3 [line:35] DEBUG https://docs.python.org/2/library/constants.html#None has been crawled
-2017-06-26 23:08:45,221 spider.threadpool Thread-3 [line:37] WARNING Thread is working...
-2017-06-26 23:08:45,223 spider Thread-3 [line:35] DEBUG https://docs.python.org/2/library/constants.html#None has been crawled
-2017-06-26 23:08:45,223 spider.threadpool Thread-3 [line:37] WARNING Thread is working...
-2017-06-26 23:08:45,224 spider Thread-3 [line:39] DEBUG add https://docs.python.org/2/library/urlparse.html#urlparse-result-object to url_set
-2017-06-26 23:08:45,226 spider Thread-3 [line:51] WARNING get https://docs.python.org/2/library/urlparse.html#urlparse-result-object
-2017-06-26 23:08:45,247 spider.database Thread-9 [line:50] INFO close database
-2017-06-26 23:08:45,250 spider.threadpool Thread-9 [line:37] WARNING Thread is working...
-2017-06-26 23:08:45,250 spider Thread-9 [line:39] DEBUG add https://docs.python.org/2/library/urlparse.html#urlparse.parse_qs to url_set
-2017-06-26 23:08:45,250 spider Thread-9 [line:51] WARNING get https://docs.python.org/2/library/urlparse.html#urlparse.parse_qs
-2017-06-26 23:08:46,763 spider.database Thread-5 [line:12] WARNING open database: python.db
-2017-06-26 23:08:46,765 spider.database Thread-5 [line:39] WARNING insert https://docs.python.org/2/library/uuid.html to database python.db
-2017-06-26 23:08:46,782 spider.database Thread-5 [line:50] INFO close database
-2017-06-26 23:08:46,783 spider.threadpool Thread-5 [line:37] WARNING Thread is working...
-2017-06-26 23:08:46,785 spider Thread-5 [line:39] DEBUG add https://docs.python.org/2/library/exceptions.html#exceptions.ValueError to url_set
-2017-06-26 23:08:46,785 spider Thread-5 [line:51] WARNING get https://docs.python.org/2/library/exceptions.html#exceptions.ValueError
-2017-06-26 23:08:47,838 spider.database Thread-6 [line:12] WARNING open database: python.db
-2017-06-26 23:08:47,842 spider.database Thread-6 [line:39] WARNING insert https://docs.python.org/2/library/constants.html#None to database python.db
-2017-06-26 23:08:47,861 spider.database Thread-6 [line:50] INFO close database
-2017-06-26 23:08:47,862 spider.threadpool Thread-6 [line:37] WARNING Thread is working...
-2017-06-26 23:08:47,864 spider Thread-6 [line:39] DEBUG add https://docs.python.org/2/library/urllib.html#urllib.urlencode to url_set
-2017-06-26 23:08:47,865 spider Thread-6 [line:51] WARNING get https://docs.python.org/2/library/urllib.html#urllib.urlencode
-2017-06-26 23:08:49,358 spider.database Thread-10 [line:12] WARNING open database: python.db
-2017-06-26 23:08:49,361 spider.database Thread-10 [line:39] WARNING insert https://docs.python.org/2/library/urlparse.html#module-urlparse to database python.db
-2017-06-26 23:08:49,377 spider.database Thread-10 [line:50] INFO close database
-2017-06-26 23:08:49,378 spider.threadpool Thread-10 [line:37] WARNING Thread is working...
-2017-06-26 23:08:49,378 spider Thread-10 [line:39] DEBUG add https://docs.python.org/2/library/cgi.html#module-cgi to url_set
-2017-06-26 23:08:49,380 spider Thread-10 [line:51] WARNING get https://docs.python.org/2/library/cgi.html#module-cgi
-2017-06-26 23:08:50,967 spider.database Thread-7 [line:12] WARNING open database: python.db
-2017-06-26 23:08:50,969 spider.database Thread-7 [line:39] WARNING insert https://docs.python.org/2/library/urlparse.html#urlparse.urlparse to database python.db
-2017-06-26 23:08:50,986 spider.database Thread-7 [line:50] INFO close database
-2017-06-26 23:08:50,986 spider.threadpool Thread-7 [line:37] WARNING Thread is working...
-2017-06-26 23:08:50,987 spider Thread-7 [line:39] DEBUG add https://docs.python.org/2/library/urlparse.html#urlparse.parse_qsl to url_set
-2017-06-26 23:08:50,989 spider Thread-7 [line:51] WARNING get https://docs.python.org/2/library/urlparse.html#urlparse.parse_qsl
-2017-06-26 23:08:55,221 spider.database Thread-9 [line:12] WARNING open database: python.db
-2017-06-26 23:08:55,223 spider.database Thread-9 [line:39] WARNING insert https://docs.python.org/2/library/urlparse.html#urlparse.parse_qs to database python.db
-2017-06-26 23:08:55,239 spider.database Thread-9 [line:50] INFO close database
-2017-06-26 23:08:55,240 spider.threadpool Thread-9 [line:37] WARNING Thread is working...
-2017-06-26 23:08:55,242 spider Thread-9 [line:35] DEBUG https://docs.python.org/2/library/exceptions.html#exceptions.ValueError has been crawled
-2017-06-26 23:08:55,242 spider.threadpool Thread-9 [line:37] WARNING Thread is working...
-2017-06-26 23:08:55,243 spider Thread-9 [line:35] DEBUG https://docs.python.org/2/library/urllib.html#urllib.urlencode has been crawled
-2017-06-26 23:08:55,243 spider.threadpool Thread-9 [line:37] WARNING Thread is working...
-2017-06-26 23:08:55,244 spider Thread-9 [line:35] DEBUG https://docs.python.org/2/library/cgi.html#module-cgi has been crawled
-2017-06-26 23:08:55,246 spider.threadpool Thread-9 [line:37] WARNING Thread is working...
-2017-06-26 23:08:55,246 spider Thread-9 [line:39] DEBUG add https://docs.python.org/2/library/urlparse.html#urlparse.urlunparse to url_set
-2017-06-26 23:08:55,246 spider Thread-9 [line:51] WARNING get https://docs.python.org/2/library/urlparse.html#urlparse.urlunparse
-2017-06-26 23:08:55,967 spider.database Thread-3 [line:12] WARNING open database: python.db
-2017-06-26 23:08:55,970 spider.database Thread-3 [line:39] WARNING insert https://docs.python.org/2/library/urlparse.html#urlparse-result-object to database python.db
-2017-06-26 23:08:55,986 spider.database Thread-3 [line:50] INFO close database
-2017-06-26 23:08:55,987 spider.threadpool Thread-3 [line:37] WARNING Thread is working...
-2017-06-26 23:08:55,989 spider Thread-3 [line:39] DEBUG add https://docs.python.org/2/library/urlparse.html#urlparse.urlsplit to url_set
-2017-06-26 23:08:55,990 spider Thread-3 [line:51] WARNING get https://docs.python.org/2/library/urlparse.html#urlparse.urlsplit
-2017-06-26 23:08:56,071 spider.database Thread-1 [line:12] WARNING open database: python.db
-2017-06-26 23:08:56,072 spider.database Thread-1 [line:39] WARNING insert https://docs.python.org/2/glossary.html#term-2to3 to database python.db
-2017-06-26 23:08:56,091 spider.database Thread-1 [line:50] INFO close database
-2017-06-26 23:08:56,092 spider.threadpool Thread-1 [line:37] WARNING Thread is working...
-2017-06-26 23:08:56,094 spider Thread-1 [line:35] DEBUG https://docs.python.org/2/library/urlparse.html#module-urlparse has been crawled
-2017-06-26 23:08:56,095 spider.threadpool Thread-1 [line:37] WARNING Thread is working...
-2017-06-26 23:08:56,095 spider Thread-1 [line:35] DEBUG https://docs.python.org/2/library/urlparse.html#module-urlparse has been crawled
-2017-06-26 23:08:56,095 spider.threadpool Thread-1 [line:37] WARNING Thread is working...
-2017-06-26 23:08:56,096 spider Thread-1 [line:39] DEBUG add https://tools.ietf.org/html/rfc2396.html to url_set
-2017-06-26 23:08:56,098 spider Thread-1 [line:51] WARNING get https://tools.ietf.org/html/rfc2396.html
-2017-06-26 23:08:56,421 spider.database Thread-4 [line:12] WARNING open database: python.db
-2017-06-26 23:08:56,423 spider.database Thread-4 [line:39] WARNING insert https://docs.python.org/2/library/socketserver.html to database python.db
-2017-06-26 23:08:56,441 spider.database Thread-4 [line:50] INFO close database
-2017-06-26 23:08:56,443 spider.threadpool Thread-4 [line:37] WARNING Thread is working...
-2017-06-26 23:08:56,443 spider Thread-4 [line:35] DEBUG https://docs.python.org/2/library/functions.html#tuple has been crawled
-2017-06-26 23:08:56,444 spider.threadpool Thread-4 [line:37] WARNING Thread is working...
-2017-06-26 23:08:56,444 spider Thread-4 [line:35] DEBUG https://docs.python.org/2/library/constants.html#None has been crawled
-2017-06-26 23:08:56,444 spider.threadpool Thread-4 [line:37] WARNING Thread is working...
-2017-06-26 23:08:56,444 spider Thread-4 [line:35] DEBUG https://docs.python.org/2/library/constants.html#None has been crawled
-2017-06-26 23:08:56,446 spider.threadpool Thread-4 [line:37] WARNING Thread is working...
-2017-06-26 23:08:56,446 spider Thread-4 [line:35] DEBUG https://docs.python.org/2/library/constants.html#None has been crawled
-2017-06-26 23:08:56,447 spider.threadpool Thread-4 [line:37] WARNING Thread is working...
-2017-06-26 23:08:56,447 spider Thread-4 [line:35] DEBUG https://docs.python.org/2/library/constants.html#None has been crawled
-2017-06-26 23:08:56,447 spider.threadpool Thread-4 [line:37] WARNING Thread is working...
-2017-06-26 23:08:56,447 spider Thread-4 [line:35] DEBUG https://docs.python.org/2/library/urlparse.html#urlparse-result-object has been crawled
-2017-06-26 23:08:56,448 spider.threadpool Thread-4 [line:37] WARNING Thread is working...
-2017-06-26 23:08:56,450 spider Thread-4 [line:39] DEBUG add https://docs.python.org/2/library/urlparse.html#urlparse.urlunsplit to url_set
-2017-06-26 23:08:56,450 spider Thread-4 [line:51] WARNING get https://docs.python.org/2/library/urlparse.html#urlparse.urlunsplit
-2017-06-26 23:08:58,519 spider.database Thread-1 [line:12] WARNING open database: python.db
-2017-06-26 23:08:58,522 spider.database Thread-1 [line:39] WARNING insert https://tools.ietf.org/html/rfc2396.html to database python.db
-2017-06-26 23:08:58,539 spider.database Thread-1 [line:50] INFO close database
-2017-06-26 23:08:58,549 spider.threadpool Thread-1 [line:37] WARNING Thread is working...
-2017-06-26 23:08:58,549 spider Thread-1 [line:35] DEBUG https://docs.python.org/2/library/urlparse.html#urlparse.urlsplit has been crawled
-2017-06-26 23:08:58,551 spider.threadpool Thread-1 [line:37] WARNING Thread is working...
-2017-06-26 23:08:58,552 spider Thread-1 [line:39] DEBUG add https://docs.python.org/2/library/urlparse.html#urlparse.urljoin to url_set
-2017-06-26 23:08:58,552 spider Thread-1 [line:51] WARNING get https://docs.python.org/2/library/urlparse.html#urlparse.urljoin
-2017-06-26 23:09:00,131 spider.database Thread-5 [line:12] WARNING open database: python.db
-2017-06-26 23:09:00,134 spider.database Thread-5 [line:39] WARNING insert https://docs.python.org/2/library/exceptions.html#exceptions.ValueError to database python.db
-2017-06-26 23:09:00,150 spider.database Thread-5 [line:50] INFO close database
-2017-06-26 23:09:00,151 spider.threadpool Thread-5 [line:37] WARNING Thread is working...
-2017-06-26 23:09:00,151 spider Thread-5 [line:35] DEBUG https://docs.python.org/2/library/urlparse.html#module-urlparse has been crawled
-2017-06-26 23:09:00,153 spider.threadpool Thread-5 [line:37] WARNING Thread is working...
-2017-06-26 23:09:00,154 spider Thread-5 [line:35] DEBUG https://docs.python.org/2/library/urlparse.html#urlparse.urlsplit has been crawled
-2017-06-26 23:09:00,155 spider.threadpool Thread-5 [line:37] WARNING Thread is working...
-2017-06-26 23:09:00,157 spider Thread-5 [line:35] DEBUG https://docs.python.org/2/library/urlparse.html#urlparse.urlunsplit has been crawled
-2017-06-26 23:09:00,157 spider.threadpool Thread-5 [line:37] WARNING Thread is working...
-2017-06-26 23:09:00,157 spider Thread-5 [line:39] DEBUG add https://docs.python.org/2/library/urlparse.html#urlparse.urldefrag to url_set
-2017-06-26 23:09:00,158 spider Thread-5 [line:51] WARNING get https://docs.python.org/2/library/urlparse.html#urlparse.urldefrag
-2017-06-26 23:09:01,358 spider.database Thread-7 [line:12] WARNING open database: python.db
-2017-06-26 23:09:01,359 spider.database Thread-7 [line:39] WARNING insert https://docs.python.org/2/library/urlparse.html#urlparse.parse_qsl to database python.db
-2017-06-26 23:09:01,377 spider.database Thread-7 [line:50] INFO close database
-2017-06-26 23:09:01,378 spider.threadpool Thread-7 [line:37] WARNING Thread is working...
-2017-06-26 23:09:01,380 spider Thread-7 [line:39] DEBUG add https://tools.ietf.org/html/rfc3986.html to url_set
-2017-06-26 23:09:01,380 spider Thread-7 [line:51] WARNING get https://tools.ietf.org/html/rfc3986.html
-2017-06-26 23:09:02,161 spider.database Thread-10 [line:12] WARNING open database: python.db
-2017-06-26 23:09:02,164 spider.database Thread-10 [line:39] WARNING insert https://docs.python.org/2/library/cgi.html#module-cgi to database python.db
-2017-06-26 23:09:02,180 spider.database Thread-10 [line:50] INFO close database
-2017-06-26 23:09:02,183 spider.threadpool Thread-10 [line:37] WARNING Thread is working...
-2017-06-26 23:09:02,184 spider Thread-10 [line:39] DEBUG add https://tools.ietf.org/html/rfc2732.html to url_set
-2017-06-26 23:09:02,184 spider Thread-10 [line:51] WARNING get https://tools.ietf.org/html/rfc2732.html
-2017-06-26 23:09:02,874 spider.database Thread-6 [line:12] WARNING open database: python.db
-2017-06-26 23:09:02,875 spider.database Thread-6 [line:39] WARNING insert https://docs.python.org/2/library/urllib.html#urllib.urlencode to database python.db
-2017-06-26 23:09:02,892 spider.database Thread-6 [line:50] INFO close database
-2017-06-26 23:09:02,894 spider.threadpool Thread-6 [line:37] WARNING Thread is working...
-2017-06-26 23:09:02,894 spider Thread-6 [line:35] DEBUG https://tools.ietf.org/html/rfc2396.html has been crawled
-2017-06-26 23:09:02,895 spider.threadpool Thread-6 [line:37] WARNING Thread is working...
-2017-06-26 23:09:02,895 spider Thread-6 [line:39] DEBUG add https://tools.ietf.org/html/rfc2368.html to url_set
-2017-06-26 23:09:02,895 spider Thread-6 [line:51] WARNING get https://tools.ietf.org/html/rfc2368.html
-2017-06-26 23:09:03,601 spider.database Thread-10 [line:12] WARNING open database: python.db
-2017-06-26 23:09:03,601 spider.database Thread-10 [line:39] WARNING insert https://tools.ietf.org/html/rfc2732.html to database python.db
-2017-06-26 23:09:03,619 spider.database Thread-10 [line:50] INFO close database
-2017-06-26 23:09:03,621 spider.threadpool Thread-10 [line:37] WARNING Thread is working...
-2017-06-26 23:09:03,621 spider Thread-10 [line:35] DEBUG https://tools.ietf.org/html/rfc1808.html has been crawled
-2017-06-26 23:09:03,622 spider.threadpool Thread-10 [line:37] WARNING Thread is working...
-2017-06-26 23:09:03,624 spider Thread-10 [line:39] DEBUG add https://tools.ietf.org/html/rfc1738.html to url_set
-2017-06-26 23:09:03,624 spider Thread-10 [line:51] WARNING get https://tools.ietf.org/html/rfc1738.html
-2017-06-26 23:09:03,823 spider.database Thread-7 [line:12] WARNING open database: python.db
-2017-06-26 23:09:03,825 spider.database Thread-7 [line:39] WARNING insert https://tools.ietf.org/html/rfc3986.html to database python.db
-2017-06-26 23:09:03,841 spider.database Thread-7 [line:50] INFO close database
-2017-06-26 23:09:03,842 spider.threadpool Thread-7 [line:37] WARNING Thread is working...
-2017-06-26 23:09:03,842 spider Thread-7 [line:35] DEBUG https://docs.python.org/2/library/urlparse.html#module-urlparse has been crawled
-2017-06-26 23:09:03,844 spider.threadpool Thread-7 [line:37] WARNING Thread is working...
-2017-06-26 23:09:03,844 spider Thread-7 [line:35] DEBUG https://docs.python.org/2/library/urlparse.html#urlparse.urlsplit has been crawled
-2017-06-26 23:09:03,845 spider.threadpool Thread-7 [line:37] WARNING Thread is working...
-2017-06-26 23:09:03,845 spider Thread-7 [line:39] DEBUG add https://docs.python.org/2/library/urlparse.html#results-of-urlparse-and-urlsplit to url_set
-2017-06-26 23:09:03,845 spider Thread-7 [line:51] WARNING get https://docs.python.org/2/library/urlparse.html#results-of-urlparse-and-urlsplit
-2017-06-26 23:09:04,378 spider.database Thread-6 [line:12] WARNING open database: python.db
-2017-06-26 23:09:04,381 spider.database Thread-6 [line:39] WARNING insert https://tools.ietf.org/html/rfc2368.html to database python.db
-2017-06-26 23:09:04,395 spider.database Thread-6 [line:50] INFO close database
-2017-06-26 23:09:04,398 spider.threadpool Thread-6 [line:37] WARNING Thread is working...
-2017-06-26 23:09:04,398 spider Thread-6 [line:35] DEBUG https://docs.python.org/2/library/urlparse.html#module-urlparse has been crawled
-2017-06-26 23:09:04,398 spider.threadpool Thread-6 [line:37] WARNING Thread is working...
-2017-06-26 23:09:04,398 spider Thread-6 [line:35] DEBUG https://docs.python.org/2/library/urlparse.html#urlparse.urlsplit has been crawled
-2017-06-26 23:09:04,400 spider.threadpool Thread-6 [line:37] WARNING Thread is working...
-2017-06-26 23:09:04,400 spider Thread-6 [line:35] DEBUG https://docs.python.org/2/library/functions.html#tuple has been crawled
-2017-06-26 23:09:04,401 spider.threadpool Thread-6 [line:37] WARNING Thread is working...
-2017-06-26 23:09:04,401 spider Thread-6 [line:39] DEBUG add https://docs.python.org/2/library/urlparse.html#urlparse.ParseResult.geturl to url_set
-2017-06-26 23:09:04,401 spider Thread-6 [line:51] WARNING get https://docs.python.org/2/library/urlparse.html#urlparse.ParseResult.geturl
-2017-06-26 23:09:05,075 spider.database Thread-9 [line:12] WARNING open database: python.db
-2017-06-26 23:09:05,075 spider.database Thread-9 [line:39] WARNING insert https://docs.python.org/2/library/urlparse.html#urlparse.urlunparse to database python.db
-2017-06-26 23:09:05,092 spider.database Thread-9 [line:50] INFO close database
-2017-06-26 23:09:05,095 spider.threadpool Thread-9 [line:37] WARNING Thread is working...
-2017-06-26 23:09:05,095 spider Thread-9 [line:39] DEBUG add https://docs.python.org/2/library/urlparse.html#urlparse.ParseResult to url_set
-2017-06-26 23:09:05,095 spider Thread-9 [line:51] WARNING get https://docs.python.org/2/library/urlparse.html#urlparse.ParseResult
-2017-06-26 23:09:05,645 spider.database Thread-10 [line:12] WARNING open database: python.db
-2017-06-26 23:09:05,648 spider.database Thread-10 [line:39] WARNING insert https://tools.ietf.org/html/rfc1738.html to database python.db
-2017-06-26 23:09:05,664 spider.database Thread-10 [line:50] INFO close database
-2017-06-26 23:09:05,664 spider.threadpool Thread-10 [line:37] WARNING Thread is working...
-2017-06-26 23:09:05,665 spider Thread-10 [line:35] DEBUG https://docs.python.org/2/library/urlparse.html#module-urlparse has been crawled
-2017-06-26 23:09:05,667 spider.threadpool Thread-10 [line:37] WARNING Thread is working...
-2017-06-26 23:09:05,667 spider Thread-10 [line:39] DEBUG add https://docs.python.org/2/library/urlparse.html#urlparse.SplitResult to url_set
-2017-06-26 23:09:05,667 spider Thread-10 [line:51] WARNING get https://docs.python.org/2/library/urlparse.html#urlparse.SplitResult
-2017-06-26 23:09:05,788 spider.database Thread-3 [line:12] WARNING open database: python.db
-2017-06-26 23:09:05,790 spider.database Thread-3 [line:39] WARNING insert https://docs.python.org/2/library/urlparse.html#urlparse.urlsplit to database python.db
-2017-06-26 23:09:05,811 spider.database Thread-3 [line:50] INFO close database
-2017-06-26 23:09:05,812 spider.threadpool Thread-3 [line:37] WARNING Thread is working...
-2017-06-26 23:09:05,813 spider Thread-3 [line:35] DEBUG https://docs.python.org/2/library/urlparse.html#urlparse.urlsplit has been crawled
-2017-06-26 23:09:05,813 spider.threadpool Thread-3 [line:37] WARNING Thread is working...
-2017-06-26 23:09:05,815 spider Thread-3 [line:39] DEBUG add https://docs.python.org/2/contents.html to url_set
-2017-06-26 23:09:05,815 spider Thread-3 [line:51] WARNING get https://docs.python.org/2/contents.html
-2017-06-26 23:09:06,255 spider.database Thread-4 [line:12] WARNING open database: python.db
-2017-06-26 23:09:06,256 spider.database Thread-4 [line:39] WARNING insert https://docs.python.org/2/library/urlparse.html#urlparse.urlunsplit to database python.db
-2017-06-26 23:09:06,275 spider.database Thread-4 [line:50] INFO close database
-2017-06-26 23:09:06,276 spider.threadpool Thread-4 [line:37] WARNING Thread is working...
-2017-06-26 23:09:06,278 spider Thread-4 [line:35] DEBUG https://docs.python.org/2/library/urlparse.html has been crawled
-2017-06-26 23:09:06,279 spider.threadpool Thread-4 [line:37] WARNING Thread is working...
-2017-06-26 23:09:06,279 spider Thread-4 [line:35] DEBUG https://docs.python.org/2/library/urlparse.html#results-of-urlparse-and-urlsplit has been crawled
-2017-06-26 23:09:06,280 spider.threadpool Thread-4 [line:37] WARNING Thread is working...
-2017-06-26 23:09:06,282 spider Thread-4 [line:35] DEBUG https://docs.python.org/2/library/uuid.html has been crawled
-2017-06-26 23:09:06,282 spider.threadpool Thread-4 [line:37] WARNING Thread is working...
-2017-06-26 23:09:06,283 spider Thread-4 [line:35] DEBUG https://docs.python.org/2/library/socketserver.html has been crawled
-2017-06-26 23:09:06,283 spider.threadpool Thread-4 [line:37] WARNING Thread is working...
-2017-06-26 23:09:06,285 spider Thread-4 [line:39] DEBUG add https://docs.python.org/2/bugs.html to url_set
-2017-06-26 23:09:06,286 spider Thread-4 [line:51] WARNING get https://docs.python.org/2/bugs.html
-2017-06-26 23:09:08,325 spider.database Thread-1 [line:12] WARNING open database: python.db
-2017-06-26 23:09:08,325 spider.database Thread-1 [line:39] WARNING insert https://docs.python.org/2/library/urlparse.html#urlparse.urljoin to database python.db
-2017-06-26 23:09:08,345 spider.database Thread-1 [line:50] INFO close database
-2017-06-26 23:09:08,345 spider.threadpool Thread-1 [line:37] WARNING Thread is working...
-2017-06-26 23:09:08,346 spider Thread-1 [line:39] DEBUG add https://github.com/python/cpython/blob/2.7/Doc/library/urlparse.rst to url_set
-2017-06-26 23:09:08,346 spider Thread-1 [line:51] WARNING get https://github.com/python/cpython/blob/2.7/Doc/library/urlparse.rst
-2017-06-26 23:09:09,756 spider.database Thread-5 [line:12] WARNING open database: python.db
-2017-06-26 23:09:09,757 spider.database Thread-5 [line:39] WARNING insert https://docs.python.org/2/library/urlparse.html#urlparse.urldefrag to database python.db
-2017-06-26 23:09:09,775 spider.database Thread-5 [line:50] INFO close database
-2017-06-26 23:09:09,776 spider.threadpool Thread-5 [line:37] WARNING Thread is working...
-2017-06-26 23:09:09,776 spider Thread-5 [line:35] DEBUG https://docs.python.org/2/genindex.html has been crawled
-2017-06-26 23:09:09,778 spider.threadpool Thread-5 [line:37] WARNING Thread is working...
-2017-06-26 23:09:09,779 spider Thread-5 [line:35] DEBUG https://docs.python.org/2/py-modindex.html has been crawled
-2017-06-26 23:09:09,779 spider.threadpool Thread-5 [line:37] WARNING Thread is working...
-2017-06-26 23:09:09,779 spider Thread-5 [line:35] DEBUG https://docs.python.org/2/library/socketserver.html has been crawled
-2017-06-26 23:09:09,780 spider.threadpool Thread-5 [line:37] WARNING Thread is working...
-2017-06-26 23:09:09,782 spider Thread-5 [line:35] DEBUG https://docs.python.org/2/library/uuid.html has been crawled
-2017-06-26 23:09:09,782 spider.threadpool Thread-5 [line:37] WARNING Thread is working...
-2017-06-26 23:09:09,782 spider Thread-5 [line:35] DEBUG https://www.python.org has been crawled
-2017-06-26 23:09:09,783 spider.threadpool Thread-5 [line:37] WARNING Thread is working...
-2017-06-26 23:09:09,783 spider Thread-5 [line:35] DEBUG https://docs.python.org/2/index.html has been crawled
-2017-06-26 23:09:09,785 spider.threadpool Thread-5 [line:37] WARNING Thread is working...
-2017-06-26 23:09:09,786 spider Thread-5 [line:35] DEBUG https://docs.python.org/2/library/index.html has been crawled
-2017-06-26 23:09:09,786 spider.threadpool Thread-5 [line:37] WARNING Thread is working...
-2017-06-26 23:09:09,786 spider Thread-5 [line:35] DEBUG https://docs.python.org/2/library/internet.html has been crawled
-2017-06-26 23:09:09,788 spider.threadpool Thread-5 [line:37] WARNING Thread is working...
-2017-06-26 23:09:09,788 spider Thread-5 [line:39] DEBUG add https://docs.python.org/2/copyright.html to url_set
-2017-06-26 23:09:09,789 spider Thread-5 [line:51] WARNING get https://docs.python.org/2/copyright.html
-2017-06-26 23:09:12,505 spider.database Thread-5 [line:12] WARNING open database: python.db
-2017-06-26 23:09:12,506 spider.database Thread-5 [line:39] WARNING insert https://docs.python.org/2/copyright.html to database python.db
-2017-06-26 23:09:12,528 spider.database Thread-5 [line:50] INFO close database
-2017-06-26 23:09:12,529 spider.threadpool Thread-5 [line:37] WARNING Thread is working...
-2017-06-26 23:09:12,529 spider Thread-5 [line:39] DEBUG add https://www.python.org/psf/donations to url_set
-2017-06-26 23:09:12,530 spider Thread-5 [line:51] WARNING get https://www.python.org/psf/donations
-2017-06-26 23:09:13,382 spider.database Thread-5 [line:12] WARNING open database: python.db
-2017-06-26 23:09:13,384 spider.database Thread-5 [line:39] WARNING insert https://www.python.org/psf/donations to database python.db
-2017-06-26 23:09:13,401 spider.database Thread-5 [line:50] INFO close database
-2017-06-26 23:09:13,403 spider.threadpool Thread-5 [line:37] WARNING Thread is working...
-2017-06-26 23:09:13,404 spider Thread-5 [line:35] DEBUG https://docs.python.org/2/bugs.html has been crawled
-2017-06-26 23:09:13,404 spider.threadpool Thread-5 [line:37] WARNING Thread is working...
-2017-06-26 23:09:13,405 spider Thread-5 [line:39] DEBUG add http://sphinx.pocoo.org to url_set
-2017-06-26 23:09:13,405 spider Thread-5 [line:51] WARNING get http://sphinx.pocoo.org
-2017-06-26 23:09:14,019 spider.database Thread-7 [line:12] WARNING open database: python.db
-2017-06-26 23:09:14,020 spider.database Thread-7 [line:39] WARNING insert https://docs.python.org/2/library/urlparse.html#results-of-urlparse-and-urlsplit to database python.db
-2017-06-26 23:09:14,045 spider.database Thread-7 [line:50] INFO close database
-2017-06-26 23:09:14,311 spider.database Thread-6 [line:12] WARNING open database: python.db
-2017-06-26 23:09:14,312 spider.database Thread-6 [line:39] WARNING insert https://docs.python.org/2/library/urlparse.html#urlparse.ParseResult.geturl to database python.db
-2017-06-26 23:09:14,328 spider.database Thread-6 [line:50] INFO close database
-2017-06-26 23:09:14,421 spider.database Thread-4 [line:12] WARNING open database: python.db
-2017-06-26 23:09:14,424 spider.database Thread-4 [line:39] WARNING insert https://docs.python.org/2/bugs.html to database python.db
-2017-06-26 23:09:14,440 spider.database Thread-4 [line:50] INFO close database
-2017-06-26 23:09:14,846 spider.database Thread-9 [line:12] WARNING open database: python.db
-2017-06-26 23:09:14,848 spider.database Thread-9 [line:39] WARNING insert https://docs.python.org/2/library/urlparse.html#urlparse.ParseResult to database python.db
-2017-06-26 23:09:14,865 spider.database Thread-9 [line:50] INFO close database
-2017-06-26 23:09:15,829 spider.database Thread-10 [line:12] WARNING open database: python.db
-2017-06-26 23:09:15,831 spider.database Thread-10 [line:39] WARNING insert https://docs.python.org/2/library/urlparse.html#urlparse.SplitResult to database python.db
-2017-06-26 23:09:15,846 spider.database Thread-10 [line:50] INFO close database
-2017-06-26 23:09:17,328 spider.database Thread-5 [line:12] WARNING open database: python.db
-2017-06-26 23:09:17,329 spider.database Thread-5 [line:39] WARNING insert http://sphinx.pocoo.org to database python.db
-2017-06-26 23:09:17,345 spider.database Thread-5 [line:50] INFO close database
-2017-06-26 23:09:20,954 spider.database Thread-2 [line:12] WARNING open database: python.db
-2017-06-26 23:09:20,957 spider.database Thread-2 [line:39] WARNING insert https://docs.python.org/2/library/functions.html#tuple to database python.db
-2017-06-26 23:09:20,973 spider.database Thread-2 [line:50] INFO close database
-2017-06-26 23:09:21,691 spider.database Thread-8 [line:12] WARNING open database: python.db
-2017-06-26 23:09:21,693 spider.database Thread-8 [line:39] WARNING insert https://docs.python.org/2/library/index.html to database python.db
-2017-06-26 23:09:21,709 spider.database Thread-8 [line:50] INFO close database
-2017-06-26 23:09:27,196 spider.database Thread-1 [line:12] WARNING open database: python.db
-2017-06-26 23:09:27,197 spider.database Thread-1 [line:39] WARNING insert https://github.com/python/cpython/blob/2.7/Doc/library/urlparse.rst to database python.db
-2017-06-26 23:09:27,214 spider.database Thread-1 [line:50] INFO close database
-2017-06-26 23:09:31,604 spider.database Thread-3 [line:12] WARNING open database: python.db
-2017-06-26 23:09:31,605 spider.database Thread-3 [line:39] WARNING insert https://docs.python.org/2/contents.html to database python.db
-2017-06-26 23:09:31,624 spider.database Thread-3 [line:50] INFO close database
-2017-06-26 23:09:31,625 spider.threadpool MainThread [line:22] INFO All tasks are done
+2017-06-27 16:41:23,482 spider.threadpool MainThread [line:13] INFO Initialize thread 1
+2017-06-27 16:41:23,482 spider.threadpool MainThread [line:34] DEBUG Thread started...
+2017-06-27 16:41:23,482 spider.threadpool MainThread [line:13] INFO Initialize thread 2
+2017-06-27 16:41:23,483 spider.threadpool MainThread [line:34] DEBUG Thread started...
+2017-06-27 16:41:23,483 spider.threadpool MainThread [line:13] INFO Initialize thread 3
+2017-06-27 16:41:23,483 spider.threadpool MainThread [line:34] DEBUG Thread started...
+2017-06-27 16:41:23,483 spider.threadpool MainThread [line:13] INFO Initialize thread 4
+2017-06-27 16:41:23,483 spider.threadpool MainThread [line:34] DEBUG Thread started...
+2017-06-27 16:41:23,483 spider.threadpool MainThread [line:13] INFO Initialize thread 5
+2017-06-27 16:41:23,487 spider.threadpool MainThread [line:34] DEBUG Thread started...
+2017-06-27 16:41:23,487 spider Thread-6 [line:129] WARNING print crawling status to command line
+2017-06-27 16:41:23,489 spider.threadpool Thread-1 [line:40] WARNING Thread is working...
+2017-06-27 16:41:23,487 spider.threadpool MainThread [line:18] DEBUG Add task
+2017-06-27 16:41:23,489 spider Thread-1 [line:47] DEBUG add https://docs.python.org/2/library/urlparse.html to url_set
+2017-06-27 16:41:23,489 spider Thread-1 [line:59] WARNING get https://docs.python.org/2/library/urlparse.html
+2017-06-27 16:41:24,417 spider.database Thread-1 [line:12] WARNING open database: python.db
+2017-06-27 16:41:24,444 spider.database Thread-1 [line:42] WARNING insert https://docs.python.org/2/library/urlparse.html to database python.db
+2017-06-27 16:41:24,459 spider.database Thread-1 [line:54] INFO close database
+2017-06-27 16:41:24,460 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,460 spider.threadpool Thread-2 [line:40] WARNING Thread is working...
+2017-06-27 16:41:24,461 spider Thread-2 [line:47] DEBUG add https://docs.python.org/2/genindex.html to url_set
+2017-06-27 16:41:24,461 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,461 spider.threadpool Thread-3 [line:40] WARNING Thread is working...
+2017-06-27 16:41:24,461 spider Thread-2 [line:59] WARNING get https://docs.python.org/2/genindex.html
+2017-06-27 16:41:24,461 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,461 spider Thread-3 [line:47] DEBUG add https://docs.python.org/2/py-modindex.html to url_set
+2017-06-27 16:41:24,461 spider.threadpool Thread-4 [line:40] WARNING Thread is working...
+2017-06-27 16:41:24,463 spider Thread-3 [line:59] WARNING get https://docs.python.org/2/py-modindex.html
+2017-06-27 16:41:24,463 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,463 spider Thread-4 [line:47] DEBUG add https://docs.python.org/2/library/socketserver.html to url_set
+2017-06-27 16:41:24,463 spider.threadpool Thread-5 [line:40] WARNING Thread is working...
+2017-06-27 16:41:24,463 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,463 spider Thread-4 [line:59] WARNING get https://docs.python.org/2/library/socketserver.html
+2017-06-27 16:41:24,464 spider Thread-5 [line:47] DEBUG add https://docs.python.org/2/library/uuid.html to url_set
+2017-06-27 16:41:24,464 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,466 spider Thread-5 [line:59] WARNING get https://docs.python.org/2/library/uuid.html
+2017-06-27 16:41:24,467 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,467 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,470 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,471 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,473 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,473 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,474 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,476 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,476 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,476 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,476 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,476 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,476 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,477 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,477 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,477 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,477 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,477 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,477 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,477 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,479 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,479 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,479 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,479 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,479 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,479 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,479 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,479 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,479 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,479 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,479 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,479 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,479 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,479 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,479 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,479 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,480 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,480 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,480 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,480 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,480 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,480 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,480 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,480 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,480 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,480 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,480 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,480 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,480 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,480 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,480 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,480 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,480 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,480 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,480 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,480 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,480 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,480 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,480 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,480 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,480 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,480 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,480 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,480 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,480 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,480 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,480 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,480 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,482 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,482 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,482 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,482 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,482 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,482 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,482 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,482 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,482 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,482 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,482 spider.threadpool Thread-1 [line:18] DEBUG Add task
+2017-06-27 16:41:24,482 spider.threadpool Thread-1 [line:40] WARNING Thread is working...
+2017-06-27 16:41:24,482 spider Thread-1 [line:47] DEBUG add https://www.python.org to url_set
+2017-06-27 16:41:24,482 spider Thread-1 [line:59] WARNING get https://www.python.org
+2017-06-27 16:41:24,977 spider.database Thread-2 [line:12] WARNING open database: python.db
+2017-06-27 16:41:24,979 spider.database Thread-2 [line:42] WARNING insert https://docs.python.org/2/genindex.html to database python.db
+2017-06-27 16:41:24,997 spider.database Thread-2 [line:54] INFO close database
+2017-06-27 16:41:24,999 spider.threadpool Thread-2 [line:40] WARNING Thread is working...
+2017-06-27 16:41:24,999 spider Thread-2 [line:47] DEBUG add https://docs.python.org/2/index.html to url_set
+2017-06-27 16:41:24,999 spider Thread-2 [line:59] WARNING get https://docs.python.org/2/index.html
+2017-06-27 16:41:25,151 spider.database Thread-3 [line:12] WARNING open database: python.db
+2017-06-27 16:41:25,151 spider.database Thread-3 [line:42] WARNING insert https://docs.python.org/2/py-modindex.html to database python.db
+2017-06-27 16:41:25,174 spider.database Thread-3 [line:54] INFO close database
+2017-06-27 16:41:25,174 spider.threadpool Thread-3 [line:40] WARNING Thread is working...
+2017-06-27 16:41:25,174 spider Thread-3 [line:47] DEBUG add https://docs.python.org/2/library/index.html to url_set
+2017-06-27 16:41:25,176 spider Thread-3 [line:59] WARNING get https://docs.python.org/2/library/index.html
+2017-06-27 16:41:25,362 spider.database Thread-2 [line:12] WARNING open database: python.db
+2017-06-27 16:41:25,364 spider.database Thread-2 [line:42] WARNING insert https://docs.python.org/2/index.html to database python.db
+2017-06-27 16:41:25,387 spider.database Thread-2 [line:54] INFO close database
+2017-06-27 16:41:25,387 spider.threadpool Thread-2 [line:40] WARNING Thread is working...
+2017-06-27 16:41:25,387 spider Thread-2 [line:47] DEBUG add https://docs.python.org/2/library/internet.html to url_set
+2017-06-27 16:41:25,388 spider Thread-2 [line:59] WARNING get https://docs.python.org/2/library/internet.html
+2017-06-27 16:41:28,168 spider.database Thread-5 [line:12] WARNING open database: python.db
+2017-06-27 16:41:28,170 spider.database Thread-5 [line:42] WARNING insert https://docs.python.org/2/library/uuid.html to database python.db
+2017-06-27 16:41:28,188 spider.database Thread-5 [line:54] INFO close database
+2017-06-27 16:41:28,190 spider.threadpool Thread-5 [line:40] WARNING Thread is working...
+2017-06-27 16:41:28,190 spider Thread-5 [line:47] DEBUG add https://docs.python.org/2/library/urlparse.html#module-urlparse to url_set
+2017-06-27 16:41:28,190 spider Thread-5 [line:59] WARNING get https://docs.python.org/2/library/urlparse.html#module-urlparse
+2017-06-27 16:41:28,773 spider.database Thread-2 [line:12] WARNING open database: python.db
+2017-06-27 16:41:28,775 spider.database Thread-2 [line:42] WARNING insert https://docs.python.org/2/library/internet.html to database python.db
+2017-06-27 16:41:28,793 spider.database Thread-2 [line:54] INFO close database
+2017-06-27 16:41:28,795 spider.threadpool Thread-2 [line:40] WARNING Thread is working...
+2017-06-27 16:41:28,795 spider Thread-2 [line:43] DEBUG https://docs.python.org/2/library/urlparse.html#module-urlparse has been crawled
+2017-06-27 16:41:28,796 spider.threadpool Thread-2 [line:40] WARNING Thread is working...
+2017-06-27 16:41:28,796 spider Thread-2 [line:43] DEBUG https://docs.python.org/2/library/urlparse.html#module-urlparse has been crawled
+2017-06-27 16:41:28,796 spider.threadpool Thread-2 [line:40] WARNING Thread is working...
+2017-06-27 16:41:28,796 spider Thread-2 [line:47] DEBUG add https://docs.python.org/2/glossary.html#term-2to3 to url_set
+2017-06-27 16:41:28,796 spider Thread-2 [line:59] WARNING get https://docs.python.org/2/glossary.html#term-2to3
+2017-06-27 16:41:29,638 spider.database Thread-4 [line:12] WARNING open database: python.db
+2017-06-27 16:41:29,640 spider.database Thread-4 [line:42] WARNING insert https://docs.python.org/2/library/socketserver.html to database python.db
+2017-06-27 16:41:29,661 spider.database Thread-4 [line:54] INFO close database
+2017-06-27 16:41:29,661 spider.threadpool Thread-4 [line:40] WARNING Thread is working...
+2017-06-27 16:41:29,663 spider Thread-4 [line:47] DEBUG add https://hg.python.org/cpython/file/2.7/Lib/urlparse.py to url_set
+2017-06-27 16:41:29,663 spider Thread-4 [line:59] WARNING get https://hg.python.org/cpython/file/2.7/Lib/urlparse.py
+2017-06-27 16:41:32,369 spider.database Thread-5 [line:12] WARNING open database: python.db
+2017-06-27 16:41:32,371 spider.database Thread-5 [line:42] WARNING insert https://docs.python.org/2/library/urlparse.html#module-urlparse to database python.db
+2017-06-27 16:41:32,392 spider.database Thread-5 [line:54] INFO close database
+2017-06-27 16:41:32,394 spider.threadpool Thread-5 [line:40] WARNING Thread is working...
+2017-06-27 16:41:32,394 spider Thread-5 [line:43] DEBUG https://docs.python.org/2/library/urlparse.html#module-urlparse has been crawled
+2017-06-27 16:41:32,394 spider.threadpool Thread-5 [line:40] WARNING Thread is working...
+2017-06-27 16:41:32,394 spider Thread-5 [line:47] DEBUG add https://docs.python.org/2/library/urlparse.html#urlparse.urlparse to url_set
+2017-06-27 16:41:32,395 spider Thread-5 [line:59] WARNING get https://docs.python.org/2/library/urlparse.html#urlparse.urlparse
+2017-06-27 16:41:32,459 spider.database Thread-4 [line:12] WARNING open database: python.db
+2017-06-27 16:41:32,460 spider.database Thread-4 [line:42] WARNING insert https://hg.python.org/cpython/file/2.7/Lib/urlparse.py to database python.db
+2017-06-27 16:41:32,480 spider.database Thread-4 [line:54] INFO close database
+2017-06-27 16:41:32,480 spider.threadpool Thread-4 [line:40] WARNING Thread is working...
+2017-06-27 16:41:32,482 spider Thread-4 [line:47] DEBUG add https://tools.ietf.org/html/rfc1808.html to url_set
+2017-06-27 16:41:32,482 spider Thread-4 [line:59] WARNING get https://tools.ietf.org/html/rfc1808.html
+2017-06-27 16:41:33,490 spider Thread-6 [line:129] WARNING print crawling status to command line
+2017-06-27 16:41:34,180 spider.database Thread-4 [line:12] WARNING open database: python.db
+2017-06-27 16:41:34,180 spider.database Thread-4 [line:42] WARNING insert https://tools.ietf.org/html/rfc1808.html to database python.db
+2017-06-27 16:41:34,201 spider.database Thread-4 [line:54] INFO close database
+2017-06-27 16:41:34,203 spider.threadpool Thread-4 [line:40] WARNING Thread is working...
+2017-06-27 16:41:34,203 spider Thread-4 [line:47] DEBUG add https://docs.python.org/2/library/constants.html#True to url_set
+2017-06-27 16:41:34,203 spider Thread-4 [line:59] WARNING get https://docs.python.org/2/library/constants.html#True
+2017-06-27 16:41:35,247 spider.database Thread-2 [line:12] WARNING open database: python.db
+2017-06-27 16:41:35,249 spider.database Thread-2 [line:42] WARNING insert https://docs.python.org/2/glossary.html#term-2to3 to database python.db
+2017-06-27 16:41:35,269 spider.database Thread-2 [line:54] INFO close database
+2017-06-27 16:41:35,269 spider.threadpool Thread-2 [line:40] WARNING Thread is working...
+2017-06-27 16:41:35,269 spider Thread-2 [line:47] DEBUG add https://docs.python.org/2/library/functions.html#tuple to url_set
+2017-06-27 16:41:35,269 spider Thread-2 [line:59] WARNING get https://docs.python.org/2/library/functions.html#tuple
+2017-06-27 16:41:35,457 spider Thread-1 [line:69] CRITICAL Failed to get https://www.python.org depth:1 error:HTTPSConnectionPool(host='www.python.org', port=443): Read timed out. (read timeout=10)
+Traceback (most recent call last):
+  File ".\spider.py", line 60, in get_and_store
+    r = requests.get(url, headers=headers, timeout=10)
+  File "C:\Program Files\Anaconda2\lib\site-packages\requests\api.py", line 70, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Program Files\Anaconda2\lib\site-packages\requests\api.py", line 56, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Program Files\Anaconda2\lib\site-packages\requests\sessions.py", line 488, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Program Files\Anaconda2\lib\site-packages\requests\sessions.py", line 609, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Program Files\Anaconda2\lib\site-packages\requests\adapters.py", line 499, in send
+    raise ReadTimeout(e, request=request)
+ReadTimeout: HTTPSConnectionPool(host='www.python.org', port=443): Read timed out. (read timeout=10)
+2017-06-27 16:41:35,460 spider.threadpool Thread-1 [line:40] WARNING Thread is working...
+2017-06-27 16:41:35,460 spider Thread-1 [line:47] DEBUG add https://docs.python.org/2/library/constants.html#None to url_set
+2017-06-27 16:41:35,460 spider Thread-1 [line:59] WARNING get https://docs.python.org/2/library/constants.html#None
+2017-06-27 16:41:36,000 spider.database Thread-4 [line:12] WARNING open database: python.db
+2017-06-27 16:41:36,002 spider.database Thread-4 [line:42] WARNING insert https://docs.python.org/2/library/constants.html#True to database python.db
+2017-06-27 16:41:36,019 spider.database Thread-4 [line:54] INFO close database
+2017-06-27 16:41:36,019 spider.threadpool Thread-4 [line:40] WARNING Thread is working...
+2017-06-27 16:41:36,020 spider Thread-4 [line:43] DEBUG https://docs.python.org/2/library/constants.html#None has been crawled
+2017-06-27 16:41:36,020 spider.threadpool Thread-4 [line:40] WARNING Thread is working...
+2017-06-27 16:41:36,022 spider Thread-4 [line:43] DEBUG https://docs.python.org/2/library/constants.html#None has been crawled
+2017-06-27 16:41:36,022 spider.threadpool Thread-4 [line:40] WARNING Thread is working...
+2017-06-27 16:41:36,023 spider Thread-4 [line:43] DEBUG https://docs.python.org/2/library/constants.html#None has been crawled
+2017-06-27 16:41:36,023 spider.threadpool Thread-4 [line:40] WARNING Thread is working...
+2017-06-27 16:41:36,023 spider Thread-4 [line:47] DEBUG add https://docs.python.org/2/library/urlparse.html#urlparse-result-object to url_set
+2017-06-27 16:41:36,023 spider Thread-4 [line:59] WARNING get https://docs.python.org/2/library/urlparse.html#urlparse-result-object
+2017-06-27 16:41:36,510 spider.database Thread-5 [line:12] WARNING open database: python.db
+2017-06-27 16:41:36,512 spider.database Thread-5 [line:42] WARNING insert https://docs.python.org/2/library/urlparse.html#urlparse.urlparse to database python.db
+2017-06-27 16:41:36,551 spider.database Thread-5 [line:54] INFO close database
+2017-06-27 16:41:36,552 spider.threadpool Thread-5 [line:40] WARNING Thread is working...
+2017-06-27 16:41:36,552 spider Thread-5 [line:47] DEBUG add https://docs.python.org/2/library/urlparse.html#urlparse.parse_qs to url_set
+2017-06-27 16:41:36,552 spider Thread-5 [line:59] WARNING get https://docs.python.org/2/library/urlparse.html#urlparse.parse_qs
+2017-06-27 16:41:37,117 spider.database Thread-1 [line:12] WARNING open database: python.db
+2017-06-27 16:41:37,118 spider.database Thread-1 [line:42] WARNING insert https://docs.python.org/2/library/constants.html#None to database python.db
+2017-06-27 16:41:37,138 spider.database Thread-1 [line:54] INFO close database
+2017-06-27 16:41:37,140 spider.threadpool Thread-1 [line:40] WARNING Thread is working...
+2017-06-27 16:41:37,140 spider Thread-1 [line:47] DEBUG add https://docs.python.org/2/library/exceptions.html#exceptions.ValueError to url_set
+2017-06-27 16:41:37,140 spider Thread-1 [line:59] WARNING get https://docs.python.org/2/library/exceptions.html#exceptions.ValueError
+2017-06-27 16:41:42,012 spider.database Thread-4 [line:12] WARNING open database: python.db
+2017-06-27 16:41:42,013 spider.database Thread-4 [line:42] WARNING insert https://docs.python.org/2/library/urlparse.html#urlparse-result-object to database python.db
+2017-06-27 16:41:42,032 spider.database Thread-4 [line:54] INFO close database
+2017-06-27 16:41:42,033 spider.threadpool Thread-4 [line:40] WARNING Thread is working...
+2017-06-27 16:41:42,033 spider Thread-4 [line:47] DEBUG add https://docs.python.org/2/library/urllib.html#urllib.urlencode to url_set
+2017-06-27 16:41:42,033 spider Thread-4 [line:59] WARNING get https://docs.python.org/2/library/urllib.html#urllib.urlencode
+2017-06-27 16:41:42,352 spider.database Thread-5 [line:12] WARNING open database: python.db
+2017-06-27 16:41:42,354 spider.database Thread-5 [line:42] WARNING insert https://docs.python.org/2/library/urlparse.html#urlparse.parse_qs to database python.db
+2017-06-27 16:41:42,394 spider.database Thread-5 [line:54] INFO close database
+2017-06-27 16:41:42,395 spider.threadpool Thread-5 [line:40] WARNING Thread is working...
+2017-06-27 16:41:42,397 spider Thread-5 [line:47] DEBUG add https://docs.python.org/2/library/cgi.html#module-cgi to url_set
+2017-06-27 16:41:42,397 spider Thread-5 [line:59] WARNING get https://docs.python.org/2/library/cgi.html#module-cgi
+2017-06-27 16:41:43,490 spider Thread-6 [line:129] WARNING print crawling status to command line
+2017-06-27 16:41:44,887 spider.database Thread-1 [line:12] WARNING open database: python.db
+2017-06-27 16:41:44,888 spider.database Thread-1 [line:42] WARNING insert https://docs.python.org/2/library/exceptions.html#exceptions.ValueError to database python.db
+2017-06-27 16:41:44,910 spider.database Thread-1 [line:54] INFO close database
+2017-06-27 16:41:44,911 spider.threadpool Thread-1 [line:40] WARNING Thread is working...
+2017-06-27 16:41:44,911 spider Thread-1 [line:47] DEBUG add https://docs.python.org/2/library/urlparse.html#urlparse.parse_qsl to url_set
+2017-06-27 16:41:44,911 spider Thread-1 [line:59] WARNING get https://docs.python.org/2/library/urlparse.html#urlparse.parse_qsl
+2017-06-27 16:41:48,203 spider.database Thread-3 [line:12] WARNING open database: python.db
+2017-06-27 16:41:48,204 spider.database Thread-3 [line:42] WARNING insert https://docs.python.org/2/library/index.html to database python.db
+2017-06-27 16:41:48,227 spider.database Thread-3 [line:54] INFO close database
+2017-06-27 16:41:48,229 spider.threadpool Thread-3 [line:40] WARNING Thread is working...
+2017-06-27 16:41:48,230 spider Thread-3 [line:43] DEBUG https://docs.python.org/2/library/exceptions.html#exceptions.ValueError has been crawled
+2017-06-27 16:41:48,230 spider.threadpool Thread-3 [line:40] WARNING Thread is working...
+2017-06-27 16:41:48,230 spider Thread-3 [line:43] DEBUG https://docs.python.org/2/library/urllib.html#urllib.urlencode has been crawled
+2017-06-27 16:41:48,230 spider.threadpool Thread-3 [line:40] WARNING Thread is working...
+2017-06-27 16:41:48,230 spider Thread-3 [line:43] DEBUG https://docs.python.org/2/library/cgi.html#module-cgi has been crawled
+2017-06-27 16:41:48,230 spider.threadpool Thread-3 [line:40] WARNING Thread is working...
+2017-06-27 16:41:48,232 spider Thread-3 [line:47] DEBUG add https://docs.python.org/2/library/urlparse.html#urlparse.urlunparse to url_set
+2017-06-27 16:41:48,232 spider Thread-3 [line:59] WARNING get https://docs.python.org/2/library/urlparse.html#urlparse.urlunparse
+2017-06-27 16:41:49,602 spider.database Thread-5 [line:12] WARNING open database: python.db
+2017-06-27 16:41:49,605 spider.database Thread-5 [line:42] WARNING insert https://docs.python.org/2/library/cgi.html#module-cgi to database python.db
+2017-06-27 16:41:49,628 spider.database Thread-5 [line:54] INFO close database
+2017-06-27 16:41:49,630 spider.threadpool Thread-5 [line:40] WARNING Thread is working...
+2017-06-27 16:41:49,630 spider Thread-5 [line:47] DEBUG add https://docs.python.org/2/library/urlparse.html#urlparse.urlsplit to url_set
+2017-06-27 16:41:49,630 spider Thread-5 [line:59] WARNING get https://docs.python.org/2/library/urlparse.html#urlparse.urlsplit
+2017-06-27 16:41:50,334 spider.database Thread-4 [line:12] WARNING open database: python.db
+2017-06-27 16:41:50,335 spider.database Thread-4 [line:42] WARNING insert https://docs.python.org/2/library/urllib.html#urllib.urlencode to database python.db
+2017-06-27 16:41:50,355 spider.database Thread-4 [line:54] INFO close database
+2017-06-27 16:41:50,358 spider.threadpool Thread-4 [line:40] WARNING Thread is working...
+2017-06-27 16:41:50,358 spider Thread-4 [line:43] DEBUG https://docs.python.org/2/library/urlparse.html#module-urlparse has been crawled
+2017-06-27 16:41:50,358 spider.threadpool Thread-4 [line:40] WARNING Thread is working...
+2017-06-27 16:41:50,359 spider Thread-4 [line:43] DEBUG https://docs.python.org/2/library/urlparse.html#module-urlparse has been crawled
+2017-06-27 16:41:50,359 spider.threadpool Thread-4 [line:40] WARNING Thread is working...
+2017-06-27 16:41:50,361 spider Thread-4 [line:47] DEBUG add https://tools.ietf.org/html/rfc2396.html to url_set
+2017-06-27 16:41:50,361 spider Thread-4 [line:59] WARNING get https://tools.ietf.org/html/rfc2396.html
+2017-06-27 16:41:50,558 spider.database Thread-1 [line:12] WARNING open database: python.db
+2017-06-27 16:41:50,559 spider.database Thread-1 [line:42] WARNING insert https://docs.python.org/2/library/urlparse.html#urlparse.parse_qsl to database python.db
+2017-06-27 16:41:50,578 spider.database Thread-1 [line:54] INFO close database
+2017-06-27 16:41:50,578 spider.threadpool Thread-1 [line:40] WARNING Thread is working...
+2017-06-27 16:41:50,578 spider Thread-1 [line:43] DEBUG https://docs.python.org/2/library/functions.html#tuple has been crawled
+2017-06-27 16:41:50,579 spider.threadpool Thread-1 [line:40] WARNING Thread is working...
+2017-06-27 16:41:50,579 spider Thread-1 [line:43] DEBUG https://docs.python.org/2/library/constants.html#None has been crawled
+2017-06-27 16:41:50,579 spider.threadpool Thread-1 [line:40] WARNING Thread is working...
+2017-06-27 16:41:50,581 spider Thread-1 [line:43] DEBUG https://docs.python.org/2/library/constants.html#None has been crawled
+2017-06-27 16:41:50,581 spider.threadpool Thread-1 [line:40] WARNING Thread is working...
+2017-06-27 16:41:50,581 spider Thread-1 [line:43] DEBUG https://docs.python.org/2/library/constants.html#None has been crawled
+2017-06-27 16:41:50,582 spider.threadpool Thread-1 [line:40] WARNING Thread is working...
+2017-06-27 16:41:50,582 spider Thread-1 [line:43] DEBUG https://docs.python.org/2/library/constants.html#None has been crawled
+2017-06-27 16:41:50,582 spider.threadpool Thread-1 [line:40] WARNING Thread is working...
+2017-06-27 16:41:50,582 spider Thread-1 [line:43] DEBUG https://docs.python.org/2/library/urlparse.html#urlparse-result-object has been crawled
+2017-06-27 16:41:50,582 spider.threadpool Thread-1 [line:40] WARNING Thread is working...
+2017-06-27 16:41:50,582 spider Thread-1 [line:47] DEBUG add https://docs.python.org/2/library/urlparse.html#urlparse.urlunsplit to url_set
+2017-06-27 16:41:50,584 spider Thread-1 [line:59] WARNING get https://docs.python.org/2/library/urlparse.html#urlparse.urlunsplit
+2017-06-27 16:41:53,236 spider.database Thread-3 [line:12] WARNING open database: python.db
+2017-06-27 16:41:53,237 spider.database Thread-3 [line:42] WARNING insert https://docs.python.org/2/library/urlparse.html#urlparse.urlunparse to database python.db
+2017-06-27 16:41:53,257 spider.database Thread-3 [line:54] INFO close database
+2017-06-27 16:41:53,259 spider.threadpool Thread-3 [line:40] WARNING Thread is working...
+2017-06-27 16:41:53,259 spider Thread-3 [line:43] DEBUG https://docs.python.org/2/library/urlparse.html#urlparse.urlsplit has been crawled
+2017-06-27 16:41:53,259 spider.threadpool Thread-3 [line:40] WARNING Thread is working...
+2017-06-27 16:41:53,259 spider Thread-3 [line:47] DEBUG add https://docs.python.org/2/library/urlparse.html#urlparse.urljoin to url_set
+2017-06-27 16:41:53,259 spider Thread-3 [line:59] WARNING get https://docs.python.org/2/library/urlparse.html#urlparse.urljoin
+2017-06-27 16:41:53,493 spider Thread-6 [line:129] WARNING print crawling status to command line
+2017-06-27 16:41:54,359 spider.database Thread-5 [line:12] WARNING open database: python.db
+2017-06-27 16:41:54,361 spider.database Thread-5 [line:42] WARNING insert https://docs.python.org/2/library/urlparse.html#urlparse.urlsplit to database python.db
+2017-06-27 16:41:54,382 spider.database Thread-5 [line:54] INFO close database
+2017-06-27 16:41:54,382 spider.threadpool Thread-5 [line:40] WARNING Thread is working...
+2017-06-27 16:41:54,384 spider Thread-5 [line:43] DEBUG https://docs.python.org/2/library/urlparse.html#module-urlparse has been crawled
+2017-06-27 16:41:54,384 spider.threadpool Thread-5 [line:40] WARNING Thread is working...
+2017-06-27 16:41:54,384 spider Thread-5 [line:43] DEBUG https://docs.python.org/2/library/urlparse.html#urlparse.urlsplit has been crawled
+2017-06-27 16:41:54,384 spider.threadpool Thread-5 [line:40] WARNING Thread is working...
+2017-06-27 16:41:54,384 spider Thread-5 [line:43] DEBUG https://docs.python.org/2/library/urlparse.html#urlparse.urlunsplit has been crawled
+2017-06-27 16:41:54,385 spider.threadpool Thread-5 [line:40] WARNING Thread is working...
+2017-06-27 16:41:54,385 spider Thread-5 [line:47] DEBUG add https://docs.python.org/2/library/urlparse.html#urlparse.urldefrag to url_set
+2017-06-27 16:41:54,385 spider Thread-5 [line:59] WARNING get https://docs.python.org/2/library/urlparse.html#urlparse.urldefrag
+2017-06-27 16:41:54,750 spider.database Thread-4 [line:12] WARNING open database: python.db
+2017-06-27 16:41:54,750 spider.database Thread-4 [line:42] WARNING insert https://tools.ietf.org/html/rfc2396.html to database python.db
+2017-06-27 16:41:54,773 spider.database Thread-4 [line:54] INFO close database
+2017-06-27 16:41:54,779 spider.threadpool Thread-4 [line:40] WARNING Thread is working...
+2017-06-27 16:41:54,779 spider Thread-4 [line:47] DEBUG add https://tools.ietf.org/html/rfc3986.html to url_set
+2017-06-27 16:41:54,779 spider Thread-4 [line:59] WARNING get https://tools.ietf.org/html/rfc3986.html
+2017-06-27 16:41:55,151 spider.database Thread-1 [line:12] WARNING open database: python.db
+2017-06-27 16:41:55,153 spider.database Thread-1 [line:42] WARNING insert https://docs.python.org/2/library/urlparse.html#urlparse.urlunsplit to database python.db
+2017-06-27 16:41:55,173 spider.database Thread-1 [line:54] INFO close database
+2017-06-27 16:41:55,174 spider.threadpool Thread-1 [line:40] WARNING Thread is working...
+2017-06-27 16:41:55,174 spider Thread-1 [line:47] DEBUG add https://tools.ietf.org/html/rfc2732.html to url_set
+2017-06-27 16:41:55,174 spider Thread-1 [line:59] WARNING get https://tools.ietf.org/html/rfc2732.html
+2017-06-27 16:41:56,528 spider.database Thread-1 [line:12] WARNING open database: python.db
+2017-06-27 16:41:56,529 spider.database Thread-1 [line:42] WARNING insert https://tools.ietf.org/html/rfc2732.html to database python.db
+2017-06-27 16:41:56,549 spider.database Thread-1 [line:54] INFO close database
+2017-06-27 16:41:56,551 spider.threadpool Thread-1 [line:40] WARNING Thread is working...
+2017-06-27 16:41:56,552 spider Thread-1 [line:43] DEBUG https://tools.ietf.org/html/rfc2396.html has been crawled
+2017-06-27 16:41:56,552 spider.threadpool Thread-1 [line:40] WARNING Thread is working...
+2017-06-27 16:41:56,552 spider Thread-1 [line:47] DEBUG add https://tools.ietf.org/html/rfc2368.html to url_set
+2017-06-27 16:41:56,552 spider Thread-1 [line:59] WARNING get https://tools.ietf.org/html/rfc2368.html
+2017-06-27 16:41:57,357 spider.database Thread-3 [line:12] WARNING open database: python.db
+2017-06-27 16:41:57,358 spider.database Thread-3 [line:42] WARNING insert https://docs.python.org/2/library/urlparse.html#urlparse.urljoin to database python.db
+2017-06-27 16:41:57,414 spider.database Thread-3 [line:54] INFO close database
+2017-06-27 16:41:57,415 spider.threadpool Thread-3 [line:40] WARNING Thread is working...
+2017-06-27 16:41:57,417 spider Thread-3 [line:43] DEBUG https://tools.ietf.org/html/rfc1808.html has been crawled
+2017-06-27 16:41:57,417 spider.threadpool Thread-3 [line:40] WARNING Thread is working...
+2017-06-27 16:41:57,417 spider Thread-3 [line:47] DEBUG add https://tools.ietf.org/html/rfc1738.html to url_set
+2017-06-27 16:41:57,417 spider Thread-3 [line:59] WARNING get https://tools.ietf.org/html/rfc1738.html
+2017-06-27 16:41:57,737 spider.database Thread-1 [line:12] WARNING open database: python.db
+2017-06-27 16:41:57,739 spider.database Thread-1 [line:42] WARNING insert https://tools.ietf.org/html/rfc2368.html to database python.db
+2017-06-27 16:41:57,759 spider.database Thread-1 [line:54] INFO close database
+2017-06-27 16:41:57,759 spider.threadpool Thread-1 [line:40] WARNING Thread is working...
+2017-06-27 16:41:57,762 spider Thread-1 [line:43] DEBUG https://docs.python.org/2/library/urlparse.html#module-urlparse has been crawled
+2017-06-27 16:41:57,762 spider.threadpool Thread-1 [line:40] WARNING Thread is working...
+2017-06-27 16:41:57,762 spider Thread-1 [line:43] DEBUG https://docs.python.org/2/library/urlparse.html#urlparse.urlsplit has been crawled
+2017-06-27 16:41:57,763 spider.threadpool Thread-1 [line:40] WARNING Thread is working...
+2017-06-27 16:41:57,763 spider Thread-1 [line:47] DEBUG add https://docs.python.org/2/library/urlparse.html#results-of-urlparse-and-urlsplit to url_set
+2017-06-27 16:41:57,763 spider Thread-1 [line:59] WARNING get https://docs.python.org/2/library/urlparse.html#results-of-urlparse-and-urlsplit
+2017-06-27 16:41:57,773 spider.database Thread-2 [line:12] WARNING open database: python.db
+2017-06-27 16:41:57,775 spider.database Thread-2 [line:42] WARNING insert https://docs.python.org/2/library/functions.html#tuple to database python.db
+2017-06-27 16:41:57,796 spider.database Thread-2 [line:54] INFO close database
+2017-06-27 16:41:57,799 spider.threadpool Thread-2 [line:40] WARNING Thread is working...
+2017-06-27 16:41:57,799 spider Thread-2 [line:43] DEBUG https://docs.python.org/2/library/urlparse.html#module-urlparse has been crawled
+2017-06-27 16:41:57,799 spider.threadpool Thread-2 [line:40] WARNING Thread is working...
+2017-06-27 16:41:57,799 spider Thread-2 [line:43] DEBUG https://docs.python.org/2/library/urlparse.html#urlparse.urlsplit has been crawled
+2017-06-27 16:41:57,799 spider.threadpool Thread-2 [line:40] WARNING Thread is working...
+2017-06-27 16:41:57,799 spider Thread-2 [line:43] DEBUG https://docs.python.org/2/library/functions.html#tuple has been crawled
+2017-06-27 16:41:57,799 spider.threadpool Thread-2 [line:40] WARNING Thread is working...
+2017-06-27 16:41:57,801 spider Thread-2 [line:47] DEBUG add https://docs.python.org/2/library/urlparse.html#urlparse.ParseResult.geturl to url_set
+2017-06-27 16:41:57,801 spider Thread-2 [line:59] WARNING get https://docs.python.org/2/library/urlparse.html#urlparse.ParseResult.geturl
+2017-06-27 16:41:57,832 spider.database Thread-5 [line:12] WARNING open database: python.db
+2017-06-27 16:41:57,834 spider.database Thread-5 [line:42] WARNING insert https://docs.python.org/2/library/urlparse.html#urlparse.urldefrag to database python.db
+2017-06-27 16:41:57,855 spider.database Thread-5 [line:54] INFO close database
+2017-06-27 16:41:57,855 spider.threadpool Thread-5 [line:40] WARNING Thread is working...
+2017-06-27 16:41:57,855 spider Thread-5 [line:47] DEBUG add https://docs.python.org/2/library/urlparse.html#urlparse.ParseResult to url_set
+2017-06-27 16:41:57,855 spider Thread-5 [line:59] WARNING get https://docs.python.org/2/library/urlparse.html#urlparse.ParseResult
+2017-06-27 16:41:58,769 spider.database Thread-3 [line:12] WARNING open database: python.db
+2017-06-27 16:41:58,769 spider.database Thread-3 [line:42] WARNING insert https://tools.ietf.org/html/rfc1738.html to database python.db
+2017-06-27 16:41:58,789 spider.database Thread-3 [line:54] INFO close database
+2017-06-27 16:41:58,790 spider.threadpool Thread-3 [line:40] WARNING Thread is working...
+2017-06-27 16:41:58,790 spider Thread-3 [line:43] DEBUG https://docs.python.org/2/library/urlparse.html#module-urlparse has been crawled
+2017-06-27 16:41:58,792 spider.threadpool Thread-3 [line:40] WARNING Thread is working...
+2017-06-27 16:41:58,792 spider Thread-3 [line:47] DEBUG add https://docs.python.org/2/library/urlparse.html#urlparse.SplitResult to url_set
+2017-06-27 16:41:58,792 spider Thread-3 [line:59] WARNING get https://docs.python.org/2/library/urlparse.html#urlparse.SplitResult
+2017-06-27 16:42:02,548 spider.database Thread-1 [line:12] WARNING open database: python.db
+2017-06-27 16:42:02,549 spider.database Thread-1 [line:42] WARNING insert https://docs.python.org/2/library/urlparse.html#results-of-urlparse-and-urlsplit to database python.db
+2017-06-27 16:42:02,572 spider.database Thread-1 [line:54] INFO close database
+2017-06-27 16:42:02,573 spider.threadpool Thread-1 [line:40] WARNING Thread is working...
+2017-06-27 16:42:02,575 spider Thread-1 [line:43] DEBUG https://docs.python.org/2/library/urlparse.html#urlparse.urlsplit has been crawled
+2017-06-27 16:42:02,575 spider.threadpool Thread-1 [line:40] WARNING Thread is working...
+2017-06-27 16:42:02,575 spider Thread-1 [line:47] DEBUG add https://docs.python.org/2/contents.html to url_set
+2017-06-27 16:42:02,576 spider Thread-1 [line:59] WARNING get https://docs.python.org/2/contents.html
+2017-06-27 16:42:02,608 spider.database Thread-2 [line:12] WARNING open database: python.db
+2017-06-27 16:42:02,611 spider.database Thread-2 [line:42] WARNING insert https://docs.python.org/2/library/urlparse.html#urlparse.ParseResult.geturl to database python.db
+2017-06-27 16:42:02,617 spider.database Thread-5 [line:12] WARNING open database: python.db
+2017-06-27 16:42:02,630 spider.database Thread-2 [line:54] INFO close database
+2017-06-27 16:42:02,630 spider.threadpool Thread-2 [line:40] WARNING Thread is working...
+2017-06-27 16:42:02,630 spider.database Thread-5 [line:42] WARNING insert https://docs.python.org/2/library/urlparse.html#urlparse.ParseResult to database python.db
+2017-06-27 16:42:02,630 spider Thread-2 [line:43] DEBUG https://docs.python.org/2/library/urlparse.html has been crawled
+2017-06-27 16:42:02,631 spider.threadpool Thread-2 [line:40] WARNING Thread is working...
+2017-06-27 16:42:02,631 spider Thread-2 [line:43] DEBUG https://docs.python.org/2/library/urlparse.html#results-of-urlparse-and-urlsplit has been crawled
+2017-06-27 16:42:02,631 spider.threadpool Thread-2 [line:40] WARNING Thread is working...
+2017-06-27 16:42:02,631 spider Thread-2 [line:43] DEBUG https://docs.python.org/2/library/uuid.html has been crawled
+2017-06-27 16:42:02,631 spider.threadpool Thread-2 [line:40] WARNING Thread is working...
+2017-06-27 16:42:02,632 spider Thread-2 [line:43] DEBUG https://docs.python.org/2/library/socketserver.html has been crawled
+2017-06-27 16:42:02,632 spider.threadpool Thread-2 [line:40] WARNING Thread is working...
+2017-06-27 16:42:02,632 spider Thread-2 [line:47] DEBUG add https://docs.python.org/2/bugs.html to url_set
+2017-06-27 16:42:02,632 spider Thread-2 [line:59] WARNING get https://docs.python.org/2/bugs.html
+2017-06-27 16:42:02,648 spider.database Thread-5 [line:54] INFO close database
+2017-06-27 16:42:02,648 spider.threadpool Thread-5 [line:40] WARNING Thread is working...
+2017-06-27 16:42:02,648 spider Thread-5 [line:47] DEBUG add https://github.com/python/cpython/blob/2.7/Doc/library/urlparse.rst to url_set
+2017-06-27 16:42:02,648 spider Thread-5 [line:59] WARNING get https://github.com/python/cpython/blob/2.7/Doc/library/urlparse.rst
+2017-06-27 16:42:02,743 spider.database Thread-4 [line:12] WARNING open database: python.db
+2017-06-27 16:42:02,744 spider.database Thread-4 [line:42] WARNING insert https://tools.ietf.org/html/rfc3986.html to database python.db
+2017-06-27 16:42:02,766 spider.database Thread-4 [line:54] INFO close database
+2017-06-27 16:42:02,767 spider.threadpool Thread-4 [line:40] WARNING Thread is working...
+2017-06-27 16:42:02,769 spider Thread-4 [line:43] DEBUG https://docs.python.org/2/genindex.html has been crawled
+2017-06-27 16:42:02,769 spider.threadpool Thread-4 [line:40] WARNING Thread is working...
+2017-06-27 16:42:02,769 spider Thread-4 [line:43] DEBUG https://docs.python.org/2/py-modindex.html has been crawled
+2017-06-27 16:42:02,769 spider.threadpool Thread-4 [line:40] WARNING Thread is working...
+2017-06-27 16:42:02,769 spider Thread-4 [line:43] DEBUG https://docs.python.org/2/library/socketserver.html has been crawled
+2017-06-27 16:42:02,769 spider.threadpool Thread-4 [line:40] WARNING Thread is working...
+2017-06-27 16:42:02,770 spider Thread-4 [line:43] DEBUG https://docs.python.org/2/library/uuid.html has been crawled
+2017-06-27 16:42:02,770 spider.threadpool Thread-4 [line:40] WARNING Thread is working...
+2017-06-27 16:42:02,770 spider Thread-4 [line:43] DEBUG https://www.python.org has been crawled
+2017-06-27 16:42:02,770 spider.threadpool Thread-4 [line:40] WARNING Thread is working...
+2017-06-27 16:42:02,770 spider Thread-4 [line:43] DEBUG https://docs.python.org/2/index.html has been crawled
+2017-06-27 16:42:02,772 spider.threadpool Thread-4 [line:40] WARNING Thread is working...
+2017-06-27 16:42:02,772 spider Thread-4 [line:43] DEBUG https://docs.python.org/2/library/index.html has been crawled
+2017-06-27 16:42:02,772 spider.threadpool Thread-4 [line:40] WARNING Thread is working...
+2017-06-27 16:42:02,772 spider Thread-4 [line:43] DEBUG https://docs.python.org/2/library/internet.html has been crawled
+2017-06-27 16:42:02,772 spider.threadpool Thread-4 [line:40] WARNING Thread is working...
+2017-06-27 16:42:02,772 spider Thread-4 [line:47] DEBUG add https://docs.python.org/2/copyright.html to url_set
+2017-06-27 16:42:02,773 spider Thread-4 [line:59] WARNING get https://docs.python.org/2/copyright.html
+2017-06-27 16:42:02,829 spider.database Thread-3 [line:12] WARNING open database: python.db
+2017-06-27 16:42:02,829 spider.database Thread-3 [line:42] WARNING insert https://docs.python.org/2/library/urlparse.html#urlparse.SplitResult to database python.db
+2017-06-27 16:42:02,848 spider.database Thread-3 [line:54] INFO close database
+2017-06-27 16:42:02,849 spider.threadpool Thread-3 [line:40] WARNING Thread is working...
+2017-06-27 16:42:02,849 spider Thread-3 [line:47] DEBUG add https://www.python.org/psf/donations to url_set
+2017-06-27 16:42:02,849 spider Thread-3 [line:59] WARNING get https://www.python.org/psf/donations
+2017-06-27 16:42:03,486 spider.database Thread-3 [line:12] WARNING open database: python.db
+2017-06-27 16:42:03,486 spider.database Thread-3 [line:42] WARNING insert https://www.python.org/psf/donations to database python.db
+2017-06-27 16:42:03,493 spider Thread-6 [line:129] WARNING print crawling status to command line
+2017-06-27 16:42:03,506 spider.database Thread-3 [line:54] INFO close database
+2017-06-27 16:42:03,507 spider.threadpool Thread-3 [line:40] WARNING Thread is working...
+2017-06-27 16:42:03,509 spider Thread-3 [line:43] DEBUG https://docs.python.org/2/bugs.html has been crawled
+2017-06-27 16:42:03,509 spider.threadpool Thread-3 [line:40] WARNING Thread is working...
+2017-06-27 16:42:03,509 spider Thread-3 [line:47] DEBUG add http://sphinx.pocoo.org to url_set
+2017-06-27 16:42:03,510 spider Thread-3 [line:59] WARNING get http://sphinx.pocoo.org
+2017-06-27 16:42:03,519 spider.database Thread-4 [line:12] WARNING open database: python.db
+2017-06-27 16:42:03,519 spider.database Thread-4 [line:42] WARNING insert https://docs.python.org/2/copyright.html to database python.db
+2017-06-27 16:42:03,539 spider.database Thread-4 [line:54] INFO close database
+2017-06-27 16:42:04,210 spider.database Thread-2 [line:12] WARNING open database: python.db
+2017-06-27 16:42:04,211 spider.database Thread-2 [line:42] WARNING insert https://docs.python.org/2/bugs.html to database python.db
+2017-06-27 16:42:04,233 spider.database Thread-2 [line:54] INFO close database
+2017-06-27 16:42:07,440 spider.database Thread-3 [line:12] WARNING open database: python.db
+2017-06-27 16:42:07,440 spider.database Thread-3 [line:42] WARNING insert http://sphinx.pocoo.org to database python.db
+2017-06-27 16:42:07,461 spider.database Thread-3 [line:54] INFO close database
+2017-06-27 16:42:15,101 spider.database Thread-5 [line:12] WARNING open database: python.db
+2017-06-27 16:42:15,102 spider.database Thread-5 [line:42] WARNING insert https://github.com/python/cpython/blob/2.7/Doc/library/urlparse.rst to database python.db
+2017-06-27 16:42:15,124 spider.database Thread-5 [line:54] INFO close database
+2017-06-27 16:42:19,068 spider.database Thread-1 [line:12] WARNING open database: python.db
+2017-06-27 16:42:19,069 spider.database Thread-1 [line:42] WARNING insert https://docs.python.org/2/contents.html to database python.db
+2017-06-27 16:42:19,092 spider.database Thread-1 [line:54] INFO close database
+2017-06-27 16:42:19,092 spider.threadpool MainThread [line:25] INFO All tasks are done
