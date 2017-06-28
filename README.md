@@ -25,5 +25,11 @@
 
 ##### v1.2 支持程序每隔10秒在屏幕上打印进度信息
 ![img](img/10.png)
-#### Todo
-doctest
+##### v1.3 加入doctest
+测试命令:`python .\spider.py -u https://docs.python.org/2/library/urlparse
+.html -d 2 --dbfile python.db --thread 5 -f python.log -l 5 --keyword python --testself`
+结果如下:
+![test](img/test.png)
+
+##### Todo
+解决Windows命令行中文参数的编码问题, 大概就是不用windows了吧~

@@ -31,6 +31,7 @@ def get_args():
     parser.add_argument(
         '--keyword',
         dest="keyword",
+        type=str,
         default="",
         help=u"设置关键词，爬取满足该关键词的网页，默认获取所有页面")
     parser.add_argument(

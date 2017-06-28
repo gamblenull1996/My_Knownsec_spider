@@ -2,8 +2,8 @@
 import sys
 import time
 import logging
-import threading
 import requests
+import threading
 from urlparse import urljoin
 from bs4 import BeautifulSoup
 from database import DataStore
@@ -26,10 +26,11 @@ class Spider(object):
         self.threadpool = MyThreadPool(self.thread_num)
 
     def start(self):
-        # 建立起线程池，添加任务，等待所有任务结束
+        # 建立起线程池，添加任务
         self.threadpool.add_task(self.get_and_store, self.url, self.depth)
 
     def wait(self):
+        # 等待所有线程结束
         self.threadpool.wait_completion()
 
     def get_and_store(self, url, depth):
@@ -110,6 +111,7 @@ class PrintToCommand(threading.Thread):
     """
     每隔10秒在命令行打印一次状态信息
     """
+
     def __init__(self, spider, threadpool):
         threading.Thread.__init__(self)
         self.threadpool = threadpool
@@ -131,9 +133,37 @@ class PrintToCommand(threading.Thread):
                 time.sleep(10)
 
 
-if __name__ == '__main__':
+def main():
+    """
+    Doctest
+    >>> class Args(object):
+    ...     pass
+    ...
+    >>> args = Args()
+    >>> args.url = "https://docs.python.org/2/library/urlparse.html"
+    >>> args.depth = 2
+    >>> args.logfile = "test.log"
+    >>> args.loglevel = 5
+    >>> args.dbfile = "test.db"
+    >>> args.thread_num = 5
+    >>> args.keyword = "python"
+    >>> log = logging.getLogger('spider')
+    >>> logging_config(log, args.logfile, args.loglevel)
+    >>> spider = Spider(args)
+    >>> spider.start()
+    >>> spider.wait()
+    >>> db = DataStore(args.dbfile)
+    >>> db.get_num()
+    37
+    """
     start = time.time()
     args = get_args()
+
+    if args.testself:
+        import doctest
+        doctest.testmod(verbose=True)
+        return
+
     logging_config(log, args.logfile, args.loglevel)
     try:
         spider = Spider(args)
@@ -147,3 +177,6 @@ if __name__ == '__main__':
         sys.exit()
     end = time.time()
     print "time cost: {}s".format(end - start)
+
+if __name__ == '__main__':
+    main()

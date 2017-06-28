@@ -40,5 +40,5 @@ class MyThread(Thread):
                 log.warning('Thread is working...')
                 func(*args, **kwargs)
             except Exception as e:
-                log.error(e)
+                log.error(e, exc_info=True)
             self.tasks.task_done()

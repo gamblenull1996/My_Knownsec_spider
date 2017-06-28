@@ -50,6 +50,21 @@ class DataStore(object):
 
         self.conn.commit()
 
+    def get_num(self):
+        """
+        u"获得数据库中的行数"
+        """
+        try:
+            log.warning("count rows in database")
+            self.cur.execute(
+                '''SELECT count(*) FROM data'''
+            )
+            return self.cur.fetchone()[0]
+        except sqlite3.Error as e:
+            log.error("Failed to get row record")
+            self.conn.rollback()
+            return None
+
     def close(self):
         log.info("close database")
         self.cur.close()
